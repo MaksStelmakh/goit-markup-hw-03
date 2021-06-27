@@ -357,6 +357,11 @@ footer {
 
 /*=======Menu==========*/
 
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .menu-container {
   padding-top: 94px;
   padding-bottom: 50px;
@@ -364,6 +369,7 @@ footer {
 
 .portfolio-list {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .menu-button {
@@ -398,10 +404,6 @@ footer {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--color);
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .projects-service {
@@ -410,23 +412,24 @@ footer {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--second-color);
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+}
+
+.info-projects {
+  padding-left: 24px;
+  padding-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .projects-title {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 .projects-link {
   text-decoration: none;
-}
-
-.photo-container {
-  padding-bottom: 94px;
 }
 
 .portfolio-list {
